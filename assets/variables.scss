@@ -1,4 +1,38 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
-// The variables you want to modify
-// $font-size-root: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift);
+p{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.title1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #303030;
+}
+.title2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #303030;
+}
+.para-text{
+    font-size: 20px;
+    color: #303030;
+}
+.para-text2{
+    font-size: 14px;
+    color: #545454;
+}
+.head1{
+    font-size: 40px;
+    font-weight: 600;
+    color:#165B6D;
+}
+.head2{
+    font-weight: 20px;
+    font-weight: 500;
+    color:#1F7F99;
+}
+.border{
+    border:1px solid black;
+}
