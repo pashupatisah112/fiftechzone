@@ -1,11 +1,11 @@
 <template>
 <div>
-    <v-container>
-        <v-row>
-            <v-col cols="12" align="center">
+    <v-container id="about" class="mb-10">
+        <v-row justify="center">
+            <v-col cols="12" lg="8" md="10" align="center">
                 <p class="head1 mb-0">Who we are</p>
-                <v-img :src="require('~/assets/line.svg')" max-width="300"></v-img>
-                <p class="para-text">The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system. The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system. The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system.The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system.</p>
+                <v-img :src="require('~/assets/line.svg')" max-width="300" class="mb-3"></v-img>
+                <p class="para-text2">The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system. The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system. The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system.The Victorian government plans to bring 120 international students per week back into the state from next month using a dedicated hotel quarantine system.</p>
             </v-col>
         </v-row>
         <v-row justify="center">
