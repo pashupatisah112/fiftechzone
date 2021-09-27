@@ -3,16 +3,17 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - fiftechzone',
-    title: 'fiftechzone',
+    titleTemplate: '%s | Go Digitai Live smart.',
+    title: 'Fiftechzone',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Builds beautiful and responsive web and mobile applications using latest technologies. We Digitalize your business with our services. Grows your business from development till production and marketing. Contact us and make a smart move for your business.' },
+      { name: 'format-detection', content: '+977-9861585119' },
+      { name:'keywords', content:'Fiftechzone,IT company in nepal,outsourcing company in nepal,softare development in nepal,mobile apps development,nepalese IT company'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

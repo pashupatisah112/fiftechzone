@@ -1,6 +1,6 @@
 <template>
 <div>
-    <v-container id="about" class="mb-10">
+    <v-container id="About" class="mb-10">
         <v-row justify="center">
             <v-col cols="12" lg="8" md="10" align="center">
                 <p class="text-lg-h4 text-md-h4 text-sm-h5 head1 font-weight-bold  mb-0">Who we are</p>
