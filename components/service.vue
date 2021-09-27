@@ -3,42 +3,42 @@
     <v-container id="Service">
         <v-row>
             <v-col align="center">
-                <p class="head1 mb-0">Our Services</p>
+                <p class="text-lg-h4 text-md-h4 text-sm-h5 head1 mb-0">Our Services</p>
                 <v-img :src="require('~/assets/line.svg')" max-width="300"></v-img>
             </v-col>
 
         </v-row>
         <v-row>
-            <!-- <v-col cols="12" lg="6" md="6">
+            <v-col cols="12" lg="6" md="6" align="center">
                 <v-img :src="require('~/assets/service.svg')">
                     <p class="head2 ma-5">What we do</p>
                     <div style="position:absolute;bottom:10px;width:100px;margin:30px">
                         <p class="para-text2">The Victorian government plans to bring 120 national students per week. </p>
                     </div>
                 </v-img>
-            </v-col> -->
-            <v-col cols="12" lg="6" md="6">
-                <!-- <div class="mt-lg-5 mt-md-5 mt-sm-2">
+            </v-col>
+            <v-col cols="12" lg="6" md="6" align="center" class="pa-5">
+                <div class="mt-5 mt-md-4 my-3">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
                                 <v-img :src="require('~/assets/web.svg')" width="20" class="mt-2"></v-img>
                             </v-col>
                         </div>
-                        <p class="float-right mt-2">WEB APPLICATION DESIGN & DEVELOPMENT</p>
+                        <p class="float-right mt-2">WEB APPLICATION DEVELOPMENT</p>
                     </v-row>
-                </div> -->
-                <!-- <div class="ml-lg-5 ml-md-5 mt-lg-5 mt-md-5 mt-sm-2">
+                </div>
+                <div class="ml-lg-5 ml-md-5 mt-lg-5 mt-md-4 my-3">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
                                 <v-img :src="require('~/assets/mobile.svg')" width="25" class="mt-2"></v-img>
                             </v-col>
                         </div>
-                        <p class="float-right mt-2">MOBILE APPLICATION DESIGN & DEVELOPMENT</p>
+                        <p class="float-right mt-2">MOBILE APPLICATION DEVELOPMENT</p>
                     </v-row>
                 </div>
-                <div class="ml-lg-10 ml-md-10 mt-lg-5 mt-md-5 mt-sm-2">
+                <div class="ml-lg-10 ml-md-10 mt-lg-5 mt-md-4 my-3">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
@@ -48,7 +48,7 @@
                         <p class="float-right mt-2">DIGITAL MARKETING</p>
                     </v-row>
                 </div>
-                <div class="ml-lg-15 ml-md-15 mt-lg-5 mt-md-5 mt-sm-2">
+                <div class="ml-lg-15 ml-md-15 mt-lg-5 mt-md-4 my-3">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
@@ -58,7 +58,7 @@
                         <p class="float-right mt-2">GRAPHIC DESIGN</p>
                     </v-row>
                 </div>
-                <div class="ml-lg-15 ml-md-15 pl-lg-5 pl-md-5 mt-lg-5 mt-md-5 mt-sm-2">
+                <div class="ml-lg-15 ml-md-15 pl-lg-5 pl-md-5 mt-lg-5 mt-md-4 mt-my-3">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
@@ -67,7 +67,7 @@
                         </div>
                         <p class="float-right mt-2">IT TRAINING</p>
                     </v-row>
-                </div> -->
+                </div>
 
             </v-col>
         </v-row>
