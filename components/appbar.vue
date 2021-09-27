@@ -1,11 +1,23 @@
 <template>
 <div>
-    <v-app-bar app absolute style="background-color:white" id="home" flat>
+    <v-app-bar app absolute style="background-color:white" id="Home" flat height="75">
+        <v-img :src="require('~/assets/logo.svg')" max-width="100" class="mt-5 mx-5"></v-img>
         <v-spacer />
-        <div class="menu-link" @click="scroll('home')">Home</div>
-        <div class="menu-link" @click="scroll('about')">About Us</div>
-        <div class="menu-link" @click="scroll('service')">Our Services</div>
-        <div class="menu-link" @click="scroll('contact')">Contact Us</div>
+        <div class="hidden-sm-and-down">
+            <div class="menu-link" v-for="(item,i) in menu" :key="i" @click="scroll(item.title)">{{item.title}}</div>
+        </div>
+        <v-menu transition="slide-y-transition" bottom>
+            <template v-slot:activator="{ on, attrs }">
+                <v-btn class="hidden-md-and-up ma-3" v-bind="attrs" v-on="on" icon>
+                    <v-icon>mdi-menu</v-icon>
+                </v-btn>
+            </template>
+            <v-list dense>
+                <v-list-item v-for="(item, i) in menu" :key="i" @click="scroll(item.title)">
+                    <v-list-item-title>{{ item.title }}</v-list-item-title>
+                </v-list-item>
+            </v-list>
+        </v-menu>
     </v-app-bar>
 </div>
 </template>
@@ -14,7 +26,10 @@
 export default {
     data() {
         return {
-            clipped: true
+            clipped: true,
+            menu:[
+                {title:'Home'},{title:'About'},{title:'Service'},{title:'Contact'}
+            ]
         }
     },
     methods: {
@@ -32,6 +47,7 @@ export default {
     margin: 0px 15px;
     cursor: pointer;
     padding: 5px 10px;
+    display: inline;
 }
 
 .menu-link:hover {

@@ -1,6 +1,6 @@
 <template>
 <div>
-    <v-container id="service">
+    <v-container id="Service">
         <v-row>
             <v-col align="center">
                 <p class="head1 mb-0">Our Services</p>
@@ -9,16 +9,16 @@
 
         </v-row>
         <v-row>
-            <v-col cols="12" lg="6" md="6">
+            <!-- <v-col cols="12" lg="6" md="6">
                 <v-img :src="require('~/assets/service.svg')">
                     <p class="head2 ma-5">What we do</p>
                     <div style="position:absolute;bottom:10px;width:100px;margin:30px">
                         <p class="para-text2">The Victorian government plans to bring 120 national students per week. </p>
                     </div>
                 </v-img>
-            </v-col>
+            </v-col> -->
             <v-col cols="12" lg="6" md="6">
-                <div class="mt-lg-5 mt-md-5 mt-sm-2">
+                <!-- <div class="mt-lg-5 mt-md-5 mt-sm-2">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
@@ -27,8 +27,8 @@
                         </div>
                         <p class="float-right mt-2">WEB APPLICATION DESIGN & DEVELOPMENT</p>
                     </v-row>
-                </div>
-                <div class="ml-lg-5 ml-md-5 mt-lg-5 mt-md-5 mt-sm-2">
+                </div> -->
+                <!-- <div class="ml-lg-5 ml-md-5 mt-lg-5 mt-md-5 mt-sm-2">
                     <v-row>
                         <div class="round-icon text-center mr-5">
                             <v-col align="center" class="pa-0">
@@ -67,7 +67,7 @@
                         </div>
                         <p class="float-right mt-2">IT TRAINING</p>
                     </v-row>
-                </div>
+                </div> -->
 
             </v-col>
         </v-row>

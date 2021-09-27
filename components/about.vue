@@ -1,6 +1,6 @@
 <template>
 <div>
-    <v-container id="about" class="mb-10">
+    <v-container id="About" class="mb-10">
         <v-row justify="center">
             <v-col cols="12" lg="8" md="10" align="center">
                 <p class="head1 mb-0">Who we are</p>
@@ -9,7 +9,7 @@
             </v-col>
         </v-row>
         <v-row justify="center">
-            <div class="round-box r1">
+            <!-- <div class="round-box r1">
                 <v-row justify="center">
                     <v-col cols="10" align="center" class="pt-16">
                         <v-img :src="require('~/assets/mission-icon.svg')" class="icons"></v-img>
@@ -19,10 +19,10 @@
                     </v-col>
                 </v-row>
 
-            </div>
+            </div> -->
         </v-row>
         <v-row justify="center">
-            <div class="round-box r2">
+            <!-- <div class="round-box r2">
                 <v-row>
                     <v-col cols="8" align="center" class="pt-16 mt-16 mx-5">
                         <v-img :src="require('~/assets/mission-icon.svg')" class="icons"></v-img>
@@ -43,7 +43,7 @@
                     </v-col>
                 </v-row>
 
-            </div>
+            </div> -->
         </v-row>
     </v-container>
 </div>
