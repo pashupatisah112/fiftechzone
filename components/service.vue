@@ -13,7 +13,7 @@
                 <v-img :src="require('~/assets/service.svg')">
                     <p class="head2 ma-5">What we do</p>
                     <div style="position:absolute;bottom:10px;width:100px;margin:30px">
-                        <p class="para-text2">The Victorian government plans to bring 120 national students per week. </p>
+                        <p class="para-text2">All your business need is our digital support to grow. </p>
                     </div>
                 </v-img>
             </v-col>
