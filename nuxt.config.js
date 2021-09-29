@@ -16,7 +16,7 @@ export default {
       { name:'keywords', content:'Fiftechzone,IT company in nepal,outsourcing company in nepal,softare development in nepal,mobile apps development,nepalese IT company'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' },
     ]
   },
 
