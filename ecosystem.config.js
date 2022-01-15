@@ -1,8 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'Fiftechzone',
-        port:'3001',
+        name: 'fiftechzone',
         exec_mode: 'cluster',
         instances: 'max', // Or a number of instances
         script: './node_modules/nuxt/bin/nuxt.js',
