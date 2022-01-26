@@ -1,6 +1,8 @@
 <template>
 <div>
-    <v-container fluid id="Contact" style="z-index:10">
+
+    <!-- Image Section -->
+    <v-container fluid id="Contact us" style="z-index:10">
         <v-row>
             <v-col cols="12" align="center">
                 <p class="text-lg-h4 text-md-h4 text-sm-h5 head1 mb-0">Contact Us</p>
@@ -17,6 +19,8 @@
             </v-col>
         </v-row>
     </v-container>
+
+    <!-- Contact Details -->
     <v-container fluid style="background-color:#DEE8EA;" class="py-12">
         <v-row>
             <v-col cols="12" lg="4" md="4" align="center">
@@ -39,14 +43,22 @@
             <v-img :src="require('~/assets/line2.svg')"></v-img>
         </v-row>
         <v-row>
+
+            <!-- Fiftechzone logo -->
+            <v-spacer></v-spacer>
             <v-col cols="12" lg="4" md="4" align="center">
                 <v-img :src="require('~/assets/logo.svg')" max-width="100"></v-img>
                 <p class="ma-2 para-text2">The best IT solution at your budget. We understand your business's economic as well as development needs and help you grow to peak.</p>
             </v-col>
-            <v-col cols="12" lg="4" md="4" align="center">
+
+            <v-spacer></v-spacer>
+
+            <!-- <v-col cols="12" lg="4" md="4" align="center">
                 <p class="text3">In collaboration with B.N. Holidays</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.714801597472!2d85.37758721668112!3d27.72601072774173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bf6389b009d%3A0x503fb4562b5aa4ec!2sBN%20Holidays!5e0!3m2!1sen!2snp!4v1632648813570!5m2!1sen!2snp" style="border:none" allowfullscreen="" loading="lazy"></iframe>
-            </v-col>
+            </v-col> -->
+
+            <!-- Subscribe section -->
             <v-col cols="12" lg="4" md="4">
                 <p class="text3">Subscribe Newsletter</p>
                 <p class="para-text2">Subscribe our newsletter to get latest updates.</p>
@@ -70,14 +82,20 @@
                     </div>
                 </v-row>
             </v-col>
+
+            <v-spacer></v-spacer>
+            
         </v-row>
     </v-container>
+
+    <!-- Subscribe alert -->
     <v-alert v-model="alert" type="success" dense style="position:fixed;top:5px;right:5px">
         Your email has been recorded.
         <v-btn icon @click="alert=false">
             <v-icon>mdi-close</v-icon>
         </v-btn>
     </v-alert>
+
 </div>
 </template>
 

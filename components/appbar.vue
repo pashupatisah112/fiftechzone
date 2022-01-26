@@ -28,7 +28,11 @@ export default {
         return {
             clipped: true,
             menu:[
-                {title:'Home'},{title:'About'},{title:'Service'},{title:'Contact'}
+                {title:'Home'},
+                {title:'About us'},
+                {title:'Service'},
+                // {title:'Our product'},
+                {title:'Contact us'}
             ]
         }
     },
