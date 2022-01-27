@@ -23,3 +23,6 @@ export default {
     }
 }
 </script>
+<style lang="css">
+@import url('~/assets/style.css');
+</style>
