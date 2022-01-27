@@ -1,10 +1,10 @@
 <template>
 <div>
-    <v-app-bar app absolute style="background-color:white" id="Home" flat height="75">
-        <v-img :src="require('~/assets/logo.svg')" max-width="100" class="mt-5 mx-5"></v-img>
+    <v-app-bar hide-on-scroll app style="background-color:white" id="Home"  height="65">
+        <v-img :src="require('~/assets/logo.svg')" max-width="80" class="my-5 mx-5"></v-img>
         <v-spacer />
         <div class="hidden-sm-and-down">
-            <div class="menu-link" v-for="(item,i) in menu" :key="i" @click="scroll(item.title)">{{item.title}}</div>
+            <div class="menu-link" style="font-size: 20px;" v-for="(item,i) in menu" :key="i" @click="scroll(item.title)">{{item.title}}</div>
         </div>
         <v-menu transition="slide-y-transition" bottom>
             <template v-slot:activator="{ on, attrs }">
