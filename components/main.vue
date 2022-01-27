@@ -1,8 +1,7 @@
 <template>
 <div>
-    <!-- <v-card elevation="0" :height="height" :width="width"> -->
     <v-container>
-            <v-row class="mt-lg-10">
+            <v-row class="mt-lg-5">
             <v-col cols="12" lg="5" md="12" style="margin-top:10%">
                 <p class="head2 text-lg-h3 text-md-h3 text-h4">Go Digital</p>
                 <p class="head1 text-lg-h2 text-lg-h2 text-h3 mt-n2 font-weight-bold">Live Smart</p>
@@ -13,21 +12,5 @@
             </v-col>
         </v-row>
     </v-container>
-    <!-- </v-card> -->
 </div>
 </template>
-
-// <script>
-// export default {
-//   data() {
-//     return {
-//       height: 0,
-//       width: 0,
-//     };
-//   },
-//   mounted() {
-//     this.height = window.innerHeight;
-//     this.width = window.innerWidth;
-//   },
-// };
-// </script>
