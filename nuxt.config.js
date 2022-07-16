@@ -3,7 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   server: {
-    port: 3000
+    port: process.env.PORT,
+    host: "0.0.0.0",
   },
   head: {
     titleTemplate: '%s | Go Digitai Live smart.',
