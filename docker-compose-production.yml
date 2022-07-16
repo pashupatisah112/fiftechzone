@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+  fiftechzone-production:
+    container_name: fiftechzone-production
+    hostname: fiftechzone-production
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=development
+        - IMG=14
+        - LOCATION=fiftechzone-production
+    restart: always
+    user: root:root
+    env_file:
+      - ./.env
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - COMPOSE_PROJECT_NAME=fiftechzone-production
+    ports:
+      - ${PORT}:${PORT}
